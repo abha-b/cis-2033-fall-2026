@@ -1,0 +1,838 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CIS 2033 Computational Probability and Statistics — Fall 2026 course information, timeline, videos, slides, and resources at Temple University Japan.">
+  <meta name="theme-color" content="#8f1731"><link rel="canonical" href="https://abha-b.github.io/cis-2033-fall-2026/">
+  <link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css">
+  <script src="site.js" defer></script><title>CIS 2033 · Computational Probability and Statistics · Fall 2026</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header"><div class="wrap header-row"><a class="brand" href="#top">CIS 2033</a><span>Temple University Japan · Fall 2026</span></div></header>
+  <nav class="course-nav" aria-label="Course sections"><div class="wrap nav-row"><a href="#overview">Overview</a><a href="#timeline">Timeline</a><a href="#materials">Materials</a><a href="#syllabus">Syllabus</a><a href="#canvas">Canvas</a></div></nav>
+
+  <main id="main">
+    <section class="wrap intro" id="top" aria-labelledby="course-title">
+      <p class="eyebrow">CIS 2033-804 · CRN 60420 · 3 credits</p>
+      <h1 id="course-title">Computational Probability and Statistics</h1><p class="lede">A computational introduction to probability and statistics, emphasizing models, reasoning, and problem solving for computer science and related fields.</p>
+      <dl class="facts"><div><dt>Instructor</dt><dd>Dr. Abha Belorkar</dd></div><div><dt>Meetings</dt><dd>Tuesdays and Thursdays, 10:20–11:50 JST (80 instructional minutes)</dd></div><div><dt>Location</dt><dd>Temple Japan Main Building, room 00307</dd></div><div><dt>Semester</dt><dd>August 31–December 9, 2026</dd></div></dl>
+    </section>
+
+    <aside class="use-note" aria-label="Where to find course information"><div class="wrap use-grid"><p><strong>This website:</strong> syllabus, timeline, videos, slides, readings, and reference links.</p><p><strong>Canvas:</strong> assignments, quizzes, tests, grades, announcements, Zoom, and deadline changes.</p></div></aside>
+
+    <section class="wrap section" id="overview" aria-labelledby="overview-title"><h2 id="overview-title">Course overview</h2>
+      <div class="two-column"><div><h3>Learning outcomes</h3><ul><li>Explain the intuition and implications of fundamental probability and statistics concepts.</li>
+<li>Select and justify probabilistic models for a given context.</li>
+<li>Formulate and solve probability problems relevant to computing and other applied fields.</li></ul></div>
+        <aside class="panel" aria-labelledby="contact-title"><h3 id="contact-title">Instructor and contact</h3><dl class="contact-list">
+          <div><dt>Instructor</dt><dd>Dr. Abha Belorkar</dd></div>
+          <div><dt>Office hours</dt><dd>Mondays at 09:30 JST on Zoom; join from the Canvas Zoom tab</dd></div>
+          <div><dt>Email</dt><dd><button class="link-button" type="button" data-reveal-email aria-describedby="email-help">Reveal Temple email</button><span data-email-output hidden></span><small id="email-help">The address is assembled only after you request it to reduce automated harvesting.</small><noscript>abha [dot] belorkar [at] temple [dot] edu</noscript></dd></div>
+        </dl></aside>
+      </div>
+    </section>
+
+    <section class="section-band" id="timeline" aria-labelledby="timeline-title"><div class="wrap">
+      <h2 id="timeline-title">Fall 2026 timeline</h2><p>The table mirrors the current Fall course spreadsheet. Blank source cells are shown as an em dash.</p>
+      <p class="action-row"><a class="button" href="https://docs.google.com/spreadsheets/d/1GnL3e-wErk_C7qx-JS1wInbtB6LAiGV4/edit">Open the live timeline on Google Drive</a><a class="button secondary" href="https://www.tuj.ac.jp/ug/academics/semester-info/calendar/2026-fall-calendar">Open the TUJ academic calendar</a></p>
+      <aside class="warning" aria-label="November 3 source conflict"><strong>Calendar conflict:</strong> the current course timeline assigns work on Tuesday, November 3, while the official TUJ calendar lists Culture Day. The table below preserves the instructor’s current sheet; check Canvas announcements before that date.</aside>
+      
+      <div class="table-scroll"><table class="schedule-table"><caption>CIS 2033 Fall 2026 meeting plan</caption>
+        <thead><tr><th scope="col">Week</th><th scope="col">Class</th><th scope="col">Date</th><th scope="col">Topic / event</th><th scope="col">Assessment / activity</th></tr></thead><tbody><tr>
+      <td>1</td><th scope="row">1</th>
+      <td><time datetime="2026-09-01">Tue, Sep 1, 2026</time></td>
+      <td><a href="#chapter-1">Ch01</a></td><td>Exercise 1</td>
+    </tr>
+<tr>
+      <td>1</td><th scope="row">2</th>
+      <td><time datetime="2026-09-03">Thu, Sep 3, 2026</time></td>
+      <td>—</td><td>—</td>
+    </tr>
+<tr>
+      <td>2</td><th scope="row">3</th>
+      <td><time datetime="2026-09-08">Tue, Sep 8, 2026</time></td>
+      <td>—</td><td>—</td>
+    </tr>
+<tr>
+      <td>2</td><th scope="row">4</th>
+      <td><time datetime="2026-09-10">Thu, Sep 10, 2026</time></td>
+      <td>—</td><td>—</td>
+    </tr>
+<tr>
+      <td>3</td><th scope="row">5</th>
+      <td><time datetime="2026-09-15">Tue, Sep 15, 2026</time></td>
+      <td><a href="#chapter-2">Ch02</a></td><td>Quiz 1</td>
+    </tr>
+<tr>
+      <td>3</td><th scope="row">6</th>
+      <td><time datetime="2026-09-17">Thu, Sep 17, 2026</time></td>
+      <td>—</td><td>—</td>
+    </tr>
+<tr class="holiday">
+      <td>4</td><th scope="row">7</th>
+      <td><time datetime="2026-09-22">Tue, Sep 22, 2026</time></td>
+      <td>National Holiday</td><td>No class</td>
+    </tr>
+<tr>
+      <td>4</td><th scope="row">8</th>
+      <td><time datetime="2026-09-24">Thu, Sep 24, 2026</time></td>
+      <td><a href="#chapter-2">Ch02 continued</a></td><td>Exercise 2</td>
+    </tr>
+<tr>
+      <td>5</td><th scope="row">9</th>
+      <td><time datetime="2026-09-29">Tue, Sep 29, 2026</time></td>
+      <td><a href="#chapter-3">Ch03</a></td><td>Quiz 2</td>
+    </tr>
+<tr>
+      <td>5</td><th scope="row">10</th>
+      <td><time datetime="2026-10-01">Thu, Oct 1, 2026</time></td>
+      <td>—</td><td>—</td>
+    </tr>
+<tr>
+      <td>6</td><th scope="row">11</th>
+      <td><time datetime="2026-10-06">Tue, Oct 6, 2026</time></td>
+      <td>—</td><td>—</td>
+    </tr>
+<tr>
+      <td>6</td><th scope="row">12</th>
+      <td><time datetime="2026-10-08">Thu, Oct 8, 2026</time></td>
+      <td>—</td><td>—</td>
+    </tr>
+<tr>
+      <td>7</td><th scope="row">13</th>
+      <td><time datetime="2026-10-13">Tue, Oct 13, 2026</time></td>
+      <td>—</td><td>Exercise 3</td>
+    </tr>
+<tr>
+      <td>7</td><th scope="row">14</th>
+      <td><time datetime="2026-10-15">Thu, Oct 15, 2026</time></td>
+      <td>Q/A</td><td>Programming Exercises 1 and 2</td>
+    </tr>
+<tr>
+      <td>8</td><th scope="row">15</th>
+      <td><time datetime="2026-10-20">Tue, Oct 20, 2026</time></td>
+      <td>Exam 1</td><td>—</td>
+    </tr>
+<tr>
+      <td>8</td><th scope="row">16</th>
+      <td><time datetime="2026-10-22">Thu, Oct 22, 2026</time></td>
+      <td><a href="#chapter-4">Ch04</a></td><td>—</td>
+    </tr>
+<tr>
+      <td>9</td><th scope="row">17</th>
+      <td><time datetime="2026-10-27">Tue, Oct 27, 2026</time></td>
+      <td>—</td><td>Exercise 4</td>
+    </tr>
+<tr>
+      <td>9</td><th scope="row">18</th>
+      <td><time datetime="2026-10-29">Thu, Oct 29, 2026</time></td>
+      <td>—</td><td>—</td>
+    </tr>
+<tr class="calendar-conflict">
+      <td>10</td><th scope="row">19</th>
+      <td><time datetime="2026-11-03">Tue, Nov 3, 2026</time></td>
+      <td>—</td><td>Quiz 3</td>
+    </tr>
+<tr>
+      <td>10</td><th scope="row">20</th>
+      <td><time datetime="2026-11-05">Thu, Nov 5, 2026</time></td>
+      <td>—</td><td>—</td>
+    </tr>
+<tr>
+      <td>11</td><th scope="row">21</th>
+      <td><time datetime="2026-11-10">Tue, Nov 10, 2026</time></td>
+      <td><a href="#chapter-5">Ch05</a></td><td>Exercise 5</td>
+    </tr>
+<tr>
+      <td>11</td><th scope="row">22</th>
+      <td><time datetime="2026-11-12">Thu, Nov 12, 2026</time></td>
+      <td>—</td><td>—</td>
+    </tr>
+<tr>
+      <td>12</td><th scope="row">23</th>
+      <td><time datetime="2026-11-17">Tue, Nov 17, 2026</time></td>
+      <td>—</td><td>Quiz 4</td>
+    </tr>
+<tr>
+      <td>12</td><th scope="row">24</th>
+      <td><time datetime="2026-11-19">Thu, Nov 19, 2026</time></td>
+      <td><a href="#chapter-7">Ch07</a></td><td>—</td>
+    </tr>
+<tr>
+      <td>13</td><th scope="row">25</th>
+      <td><time datetime="2026-11-24">Tue, Nov 24, 2026</time></td>
+      <td>Review</td><td>—</td>
+    </tr>
+<tr>
+      <td>13</td><th scope="row">26</th>
+      <td><time datetime="2026-11-26">Thu, Nov 26, 2026</time></td>
+      <td>Exam 2</td><td>—</td>
+    </tr></tbody>
+      </table></div>
+      <details class="university-dates"><summary>University add, drop, and withdrawal deadlines</summary><ul>
+        <li><time datetime="2026-09-04T13:00+09:00">September 4 at 13:00 JST</time> — last day to add</li>
+        <li><time datetime="2026-09-11T13:00+09:00">September 11 at 13:00 JST</time> — last day to drop with tuition credit</li>
+        <li><time datetime="2026-11-30T13:00+09:00">November 30 at 13:00 JST</time> — last day to withdraw</li>
+      </ul><p><a href="https://www.tuj.ac.jp/ug/academics/semester-info/calendar/2026-fall-calendar">Verify deadlines on the official calendar</a>.</p></details>
+    </div></section>
+
+    <section class="wrap section" id="materials" aria-labelledby="materials-title"><h2 id="materials-title">Course materials</h2>
+      <p>Videos, cleared slides, and readings open from Google Drive. Slides marked “Not publicly posted” were withheld after the privacy, ownership, and stale-content audit.</p>
+      <p class="action-row"><a class="button" href="https://drive.google.com/drive/folders/1X1K9ZTiAT7uH4Nn7nC67v4uX2WozVW8X">Browse cleared CIS 2033 files on Google Drive</a></p>
+      <aside class="panel material-extras" aria-labelledby="tables-title"><h3 id="tables-title">Probability tables</h3><ul>
+        <li><a href="https://drive.google.com/file/d/1qS9l8ONDdM-U3r9ZGcY6xVstsZ8NvUl0/view">Standard normal CDF table (Google Drive)</a></li>
+        <li><a href="https://drive.google.com/file/d/15YIYvTd0Fs4iHz-dHZ1v6ZhKD4XZaWZF/view">t-distribution table (Google Drive)</a></li>
+      </ul></aside>
+      <div class="details-actions" aria-label="Material display controls"><button type="button" data-details-action="open">Expand all</button><button type="button" data-details-action="close">Collapse all</button></div>
+      <div class="materials-stack"><details class="material-group" id="chapter-1" open>
+      <summary>Chapter 1 — Basic Concepts in Probability <span>16 sections</span></summary>
+      <div class="details-body"><div class="table-scroll"><table class="materials-table">
+        <caption>Chapter 1 videos and slides</caption>
+        <thead><tr><th scope="col">Section</th><th scope="col">Topic</th><th scope="col">Video</th><th scope="col">Slides</th></tr></thead>
+        <tbody><tr>
+      <th scope="row"><span class="section-code">00 a</span></th>
+      <td>Motivation</td>
+      <td><a href="https://drive.google.com/file/d/1-tzPVSvPe7uuRKGlCvK-3gXd-LYlUH7h/view?usp=share_link">Video <span class="meta">(06:18)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1ToEv9BvxBM1b_MjG77KFdkZ37aEMKrvh/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">00 b</span></th>
+      <td>Two ways to interpret probability</td>
+      <td><a href="https://drive.google.com/file/d/1PTcR1bHeqqe6Z6NHEXsm5YygA4aceHYT/view?usp=share_link">Video <span class="meta">(05:18)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">01</span></th>
+      <td>Random Experiments</td>
+      <td><a href="https://drive.google.com/file/d/1uu7d39V2MK__pOGjXfcv0Fd-bbBrust-/view?usp=share_link">Video <span class="meta">(06:17)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">02</span></th>
+      <td>Sample Space and Events</td>
+      <td><a href="https://drive.google.com/file/d/1Yl3DNNF5iMRWcaXRkflER02i6o53IxxC/view?usp=share_link">Video <span class="meta">(11:50)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">03</span></th>
+      <td>Inclusion-Exclusion Principle</td>
+      <td><a href="https://drive.google.com/file/d/1FnuC7erXn1kQfbzMopj6Yn7KrUQpO35a/view?usp=share_link">Video <span class="meta">(22:39)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">04</span></th>
+      <td>De Morgan&#39;s Laws and Distributive Laws</td>
+      <td><a href="https://drive.google.com/file/d/1rqEPMWM4KZmtfqhzj8YBmS5b1JHaV69d/view?usp=share_link">Video <span class="meta">(12:21)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">05.A</span></th>
+      <td>Probability Axioms</td>
+      <td><a href="https://drive.google.com/file/d/1ZdkTnEAPRo8rplkGfn_Yc0G7tJywNWyp/view?usp=share_link">Video <span class="meta">(07:50)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">05.B</span></th>
+      <td>Implications of Probability Axioms</td>
+      <td><a href="https://drive.google.com/file/d/1VXSslFTLa_T61hMpA4Kc5h_6OcYRWt1q/view?usp=share_link">Video <span class="meta">(23:01)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">06</span></th>
+      <td>Independence</td>
+      <td><a href="https://drive.google.com/file/d/1DZHofw-aEY9GvtZEBAvEgIuUTOinEENu/view?usp=share_link">Video <span class="meta">(31:55)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">07</span></th>
+      <td>Conditional Probability</td>
+      <td><a href="https://drive.google.com/file/d/1Gx-8Iqir7-XbY31f6M8L2Nsg7TL0b399/view?usp=share_link">Video <span class="meta">(22:53)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">08</span></th>
+      <td>Mutually Exclusive Events vs. Independent Events</td>
+      <td><a href="https://drive.google.com/file/d/1PTzw0voMAn4kZh_BbHzk4TieRvv2Derw/view?usp=share_link">Video <span class="meta">(06:15)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">09</span></th>
+      <td>A Formula and An Assumption</td>
+      <td><a href="https://drive.google.com/file/d/1cri43j3B1G9PXibBM666HVO2W94F75F2/view?usp=share_link">Video <span class="meta">(10:52)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">10</span></th>
+      <td>Chain Rule</td>
+      <td><a href="https://drive.google.com/file/d/15DeHXs1abudaeFvWjm79CD2Bb9ZziMlx/view?usp=share_link">Video <span class="meta">(27:34)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">11</span></th>
+      <td>Law of Total Probability</td>
+      <td><a href="https://drive.google.com/file/d/1D5pJiGO2u2xhN_JuZfhO_dvqd-oXw_b5/view?usp=share_link">Video <span class="meta">(14:28)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">12</span></th>
+      <td>Bayes Rule</td>
+      <td><a href="https://drive.google.com/file/d/1C4UM56ZkkaZ5KayXW_0H8xHQRdqmnwQN/view?usp=share_link">Video <span class="meta">(15:20)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">1.A</span></th>
+      <td>Conditional Independence</td>
+      <td><a href="https://drive.google.com/file/d/1w2FR-KYKfxwqps_3qY48B0--PWbS2Qlj/view?usp=share_link">Video <span class="meta">(19:40)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr></tbody>
+      </table></div><p><strong>Review sheet:</strong> <span class="held" title="Withheld after the publication audit">Not publicly posted</span></p>
+      <details class="supplement"><summary>Supplemental resources</summary><ul><li><strong>Set Theory Review:</strong> <a href="https://www.youtube.com/watch?v=tyDKR4FG3Yw">youtube.com 1</a> · <a href="https://www.youtube.com/watch?v=4TlCToZZ5gA">youtube.com 2</a></li>
+<li><strong>Venn Diagrams:</strong> <a href="https://www.onlinemathlearning.com/shading-venn-diagrams.html">onlinemathlearning.com 1</a> · <a href="https://www.youtube.com/watch?v=059SNMvGEzE">youtube.com 2</a></li>
+<li><strong>Inclusion-Exclusion Principle:</strong> <a href="https://www.youtube.com/watch?v=FOfEgJodjXc">youtube.com</a></li>
+<li><strong>Mutually Exclusive Events vs. Independent Events:</strong> <a href="https://www.youtube.com/watch?v=GnWHt9nqwBA">youtube.com 1</a> · <a href="https://www.youtube.com/watch?v=UOfsad9WWwk">youtube.com 2</a></li>
+<li><strong>Law of Total Probability:</strong> <a href="https://www.youtube.com/watch?v=F3y8qupFfUs">youtube.com</a></li>
+<li><strong>Bayes&#39; Rule:</strong> <a href="https://www.khanacademy.org/math/ap-statistics/probability-ap/stats-conditional-probability/v/bayes-theorem-visualized">khanacademy.org 1</a> · <a href="https://stattrek.com/probability/bayes-theorem.aspx">stattrek.com 2</a> · <a href="https://www.youtube.com/watch?v=HZGCoVF3YvM">youtube.com 3</a> · <a href="https://www.youtube.com/watch?v=XQoLVl31ZfQ">youtube.com 4</a> · <a href="https://www.youtube.com/watch?v=OByl4RJxnKA">youtube.com 5</a> · <a href="https://www.youtube.com/watch?v=oZCskBpHWyk">youtube.com 6</a></li>
+<li><strong>Conditional Independence:</strong> <a href="https://math.stackexchange.com/questions/23093/could-someone-explain-conditional-independence">math.stackexchange.com 1</a> · <a href="https://www.youtube.com/watch?v=7B3cDe39lwY">youtube.com 2</a> · <a href="https://www.youtube.com/watch?v=0TUI2-KFwEg">youtube.com 3</a></li></ul></details></div>
+    </details>
+<details class="material-group" id="chapter-2">
+      <summary>Chapter 2 — Counting <span>10 sections</span></summary>
+      <div class="details-body"><div class="table-scroll"><table class="materials-table">
+        <caption>Chapter 2 videos and slides</caption>
+        <thead><tr><th scope="col">Section</th><th scope="col">Topic</th><th scope="col">Video</th><th scope="col">Slides</th></tr></thead>
+        <tbody><tr>
+      <th scope="row"><span class="section-code">01.A</span></th>
+      <td>Counting Basics: Multiplication Principle</td>
+      <td><a href="https://drive.google.com/file/d/1GpYXS_cq6dmoQy1FCW59PkZTZVnX8Yhz/view?usp=share_link">Video <span class="meta">(09:17)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">01.B</span></th>
+      <td>Counting Basics: Permutations</td>
+      <td><a href="https://drive.google.com/file/d/1wkbqDLgAf8uAbdmpdU5jRy-aUmd7TWYT/view?usp=share_link">Video <span class="meta">(11:36)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">01.C</span></th>
+      <td>Counting Basics: Combinations</td>
+      <td><a href="https://drive.google.com/file/d/12huMEbEJArErMJV06Q12BhmdiaZIAIFU/view?usp=share_link">Video <span class="meta">(13:40)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">01.D</span></th>
+      <td>Counting Basics: Pascal&#39;s Triangle</td>
+      <td><a href="https://drive.google.com/file/d/1A9CM9Fe-gJGNokgldp_TkfJwiTksgWj9/view?usp=share_link">Video <span class="meta">(09:47)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1zaFn2zRm_IeMwnhV-OrU5I8AyJg67dxc/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">01.E</span></th>
+      <td>Counting Basics: Binomial Theorem</td>
+      <td><a href="https://drive.google.com/file/d/15L4q-Uiw-ZcZNWpG_HetMAg7yElTAhDE/view?usp=share_link">Video <span class="meta">(09:34)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1hh_i2xXNVQ2Q-Lh_s9GCjglcJrrGviXC/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">02</span></th>
+      <td>Ordered Sampling with Replacement</td>
+      <td><a href="https://drive.google.com/file/d/1ax586vETUwHWfTi8W7kL1r6RKdIC2f-W/view?usp=share_link">Video <span class="meta">(12:58)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">03</span></th>
+      <td>Ordered Sampling without Replacement</td>
+      <td><a href="https://drive.google.com/file/d/1A2tYas823_puJfUPHw-YNx3xLlDIfFX8/view?usp=share_link">Video <span class="meta">(13:39)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">04.A</span></th>
+      <td>Unordered Sampling without Replacement</td>
+      <td><a href="https://drive.google.com/file/d/14CSy9dZD9ZXaLg_n2kmjFKe4nDWExknX/view?usp=share_link">Video <span class="meta">(17:11)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">04.B</span></th>
+      <td>Unordered Sampling without Replacement</td>
+      <td><a href="https://drive.google.com/file/d/1_uo1AM0-d2LXH09s0PPbqolIHzYrqqYd/view?usp=share_link">Video <span class="meta">(14:45)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">05</span></th>
+      <td>Unordered Sampling with Replacement</td>
+      <td><a href="https://drive.google.com/file/d/1exnTGYCNDjzkpuz3Loo3hLzNbvewD8Ex/view?usp=share_link">Video <span class="meta">(26:07)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr></tbody>
+      </table></div><p><strong>Review sheet:</strong> <span class="held" title="Withheld after the publication audit">Not publicly posted</span></p>
+      <details class="supplement"><summary>Supplemental resources</summary><ul><li><strong>Permutations(Ordered Sampling without Replacement):</strong> <a href="https://www.youtube.com/watch?v=DROZVHObeko">youtube.com 1</a> · <a href="https://www.youtube.com/watch?v=cwPVTvZwNoI">youtube.com 2</a></li>
+<li><strong>Combinations(Unordered Sampling without Replacement):</strong> <a href="https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:prob-comb/x9e81a4f98389efdf:prob-combinatorics-precalc/v/probability-using-combinations">khanacademy.org</a></li>
+<li><strong>Permutations vs. Combinations:</strong> <a href="https://www.mathsisfun.com/combinatorics/combinations-permutations.html">mathsisfun.com 1</a> · <a href="https://www.youtube.com/watch?v=ssoTzwA_Aug">youtube.com 2</a> · <a href="https://www.youtube.com/watch?v=hJRXKq2GEo8">youtube.com 3</a> · <a href="https://www.youtube.com/watch?v=p7E6dMGgkB0">youtube.com 4</a> · <a href="https://www.youtube.com/watch?v=X9-Yjxt6nf4">youtube.com 5</a> · <a href="https://www.youtube.com/watch?v=NEGxh_D7yKU">youtube.com 6</a> · <a href="https://www.youtube.com/watch?v=XJnIdRXUi7A">youtube.com 7</a> · <a href="https://www.youtube.com/watch?v=0NAASclUm4k">youtube.com 8</a> · <a href="https://www.youtube.com/watch?v=TBnPkKxXPu8">youtube.com 9</a></li>
+<li><strong>Stars and Bars (Unordered Sampling with Replacement):</strong> <a href="http://discrete.openmathbooks.org/dmoi2/sec_stars-and-bars.html">discrete.openmathbooks.org 1</a> · <a href="https://www.youtube.com/watch?v=DLJI6T3zNvA">youtube.com 2</a></li>
+<li><strong>General:</strong> <a href="https://ocw.mit.edu/high-school/mathematics/combinatorics-the-fine-art-of-counting/lecture-notes/MITHFH_lecturenotes_2.pdf">ocw.mit.edu</a></li></ul></details></div>
+    </details>
+<details class="material-group" id="chapter-3">
+      <summary>Chapter 3 — Discrete Random Variables <span>20 sections</span></summary>
+      <div class="details-body"><div class="table-scroll"><table class="materials-table">
+        <caption>Chapter 3 videos and slides</caption>
+        <thead><tr><th scope="col">Section</th><th scope="col">Topic</th><th scope="col">Video</th><th scope="col">Slides</th></tr></thead>
+        <tbody><tr>
+      <th scope="row"><span class="section-code">01</span></th>
+      <td>Introduction to Random Variables</td>
+      <td><a href="https://drive.google.com/file/d/1wTCzPwVy_Ap0ZIdLUnV2xUKFpjbZa0Jq/view?usp=share_link">Video <span class="meta">(03:12)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">02</span></th>
+      <td>Random Variables: Terminology and an Example</td>
+      <td><a href="https://drive.google.com/file/d/14X9ocbZ052MkaJ216Qys163HgTLH-iwH/view?usp=share_link">Video <span class="meta">(14:42)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">03</span></th>
+      <td>Probability Mass Function</td>
+      <td><a href="https://drive.google.com/file/d/1Ub5CWAEFpYQP4pygLMKAV30rvw0Cc2oh/view?usp=share_link">Video <span class="meta">(23:31)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">04.A</span></th>
+      <td>Bernoulli Distribution</td>
+      <td><a href="https://drive.google.com/file/d/1ypeA_5mrJK_nBWG94uZbaq1aRAyUmpyW/view?usp=share_link">Video <span class="meta">(04:54)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">04.B</span></th>
+      <td>Geometric Distribution</td>
+      <td><a href="https://drive.google.com/file/d/1OuzFB_6bBdbXMHpoT0BvkQXUO8ZteBvo/view?usp=share_link">Video <span class="meta">(09:37)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">04.C</span></th>
+      <td>Binomial Distribution</td>
+      <td><a href="https://drive.google.com/file/d/19R7jiaEdyKco0LRCEJv1kBf0cyQXZEqT/view?usp=share_link">Video <span class="meta">(17:02)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">04.D</span></th>
+      <td>Negative Binomial (Pascal) Distribution</td>
+      <td><a href="https://drive.google.com/file/d/1excJP0i2L_ZucT1UbTC5TE3Ahgzi6Zn1/view?usp=share_link">Video <span class="meta">(11:11)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">04.E</span></th>
+      <td>Hypergeometric Distribution</td>
+      <td><a href="https://drive.google.com/file/d/143P-XNBTc54nr3h0gV4cH8PA_Ftgnkbv/view?usp=share_link">Video <span class="meta">(19:48)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">04.F</span></th>
+      <td>Poisson Distribution</td>
+      <td><a href="https://drive.google.com/file/d/1mgDo6Tx4hFiv2-PhtrH1GqxpFbb9OXa0/view?usp=share_link">Video <span class="meta">(18:33)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">05</span></th>
+      <td>Independent Random Variables</td>
+      <td><a href="https://drive.google.com/file/d/1BidQv07sg5H75YPuIc0Nd3Eib3fnpXrX/view?usp=share_link">Video <span class="meta">(11:55)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">06.A</span></th>
+      <td>Relationship between Special Distributions</td>
+      <td><a href="https://drive.google.com/file/d/1sgsqnT36XDTK1jPb0Ny5zQ-HlL2ufyrm/view?usp=share_link">Video <span class="meta">(05:11)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">06.B</span></th>
+      <td>Relationship between Special Distributions</td>
+      <td><a href="https://drive.google.com/file/d/1YGisPNfRUWQzKWQ3Q28U3Im7RYoCeOc_/view?usp=share_link">Video <span class="meta">(15:43)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">07</span></th>
+      <td>Adding Two Random Variables</td>
+      <td><a href="https://drive.google.com/file/d/1-b12fiaBnsYgT5beF6sJmzjyVLIDndAq/view?usp=share_link">Video <span class="meta">(17:38)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">08</span></th>
+      <td>Cumulative Distribution Function</td>
+      <td><a href="https://drive.google.com/file/d/1M7xkIZN-c6BwPO_g_Y-Xbc3kRh-lKwVg/view?usp=share_link">Video <span class="meta">(16:49)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">09</span></th>
+      <td>Expected Value</td>
+      <td><a href="https://drive.google.com/file/d/1boApxmFuzIn7-ezqXAiv8rN24k27Cdo9/view?usp=share_link">Video <span class="meta">(17:30)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">10</span></th>
+      <td>Functions of Random Variables</td>
+      <td><a href="https://drive.google.com/file/d/1EZoYcAEtu5lD1Ojo0CbnAdwztg_1pERk/view?usp=share_link">Video <span class="meta">(18:37)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">11</span></th>
+      <td>Variance</td>
+      <td><a href="https://drive.google.com/file/d/1-9BXkw3c1KfKnDwbeSApCpkjaga0CNME/view?usp=share_link">Video <span class="meta">(26:14)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">A.1</span> <span class="badge">Optional</span></th>
+      <td>Expected Value and Variance of a Geometric Random Variable</td>
+      <td><span class="muted">No video listed</span></td>
+      <td><a href="https://drive.google.com/file/d/1cfp5zqEc0sg9CNYJpHG8XVwcRoZLuSv6/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">A.2</span> <span class="badge">Optional</span></th>
+      <td>Expected Value and Variance of a Poisson Random Variable</td>
+      <td><span class="muted">No video listed</span></td>
+      <td><a href="https://drive.google.com/file/d/183fYTpDXhr0vNun5EbeQ5GoCON9XL6We/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">A.3</span> <span class="badge">Optional</span></th>
+      <td>Expected Value of a Hypergeometric Random Variable</td>
+      <td><a href="https://www.youtube.com/watch?v=P-Vy3KVt3pk&amp;list=PL6DRxe0SXg8EsTzBOpyOirqMmEk8d4Yta&amp;index=3">Video <span class="meta">(26:05)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1k7yvYEzE1gYRgSfx3TvEIqO7d7Ti780z/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr></tbody>
+      </table></div><p><strong>Review sheet:</strong> <span class="held" title="Withheld after the publication audit">Not publicly posted</span></p>
+      <details class="supplement"><summary>Supplemental resources</summary><ul><li><strong>Random Variables:</strong> <a href="https://www.youtube.com/watch?v=3v9w79NhsfI">youtube.com</a></li>
+<li><strong>Poisson Distribution:</strong> <a href="https://www.youtube.com/watch?v=m0o-585xwW0">youtube.com 1</a> · <a href="https://www.youtube.com/watch?v=cPOChr_kuQs">youtube.com 2</a></li>
+<li><strong>Hypergeometric Distribution:</strong> <a href="https://www.youtube.com/watch?v=BCeFgnh6A1U">youtube.com 1</a> · <a href="https://www.youtube.com/watch?v=uzN7U88KSx8">youtube.com 2</a></li>
+<li><strong>Overview of Special Distributions (Discrete):</strong> <a href="https://www.youtube.com/watch?v=UrOXRvG9oYE">youtube.com 1</a> · <a href="https://www.youtube.com/watch?v=k2BB0p8byGA">youtube.com 2</a></li>
+<li><strong>Expected Value (of Discrete Random Variables):</strong> <a href="https://www.khanacademy.org/math/statistics-probability/random-variables-stats-library/random-variables-discrete/v/expected-value-of-a-discrete-random-variable">khanacademy.org</a></li>
+<li><strong>Variance (of Discrete Random Variables):</strong> <a href="https://www.khanacademy.org/math/statistics-probability/random-variables-stats-library/random-variables-discrete/v/variance-and-standard-deviation-of-a-discrete-random-variable">khanacademy.org</a></li></ul></details></div>
+    </details>
+<details class="material-group" id="chapter-4">
+      <summary>Chapter 4 — Continuous Random Variables <span>19 sections</span></summary>
+      <div class="details-body"><div class="table-scroll"><table class="materials-table">
+        <caption>Chapter 4 videos and slides</caption>
+        <thead><tr><th scope="col">Section</th><th scope="col">Topic</th><th scope="col">Video</th><th scope="col">Slides</th></tr></thead>
+        <tbody><tr>
+      <th scope="row"><span class="section-code">01</span></th>
+      <td>Discrete vs. Continuous Random Variables</td>
+      <td><a href="https://drive.google.com/file/d/19_-gFHXWPXThpf_rPsIBc4XJDpEhIqrK/view?usp=sharing">Video <span class="meta">(11:24)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1yXZ59JJy6trgXjPfikfRcxbP0SlvPzE0/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">02</span></th>
+      <td>Probability Mass Function (PMF) vs. Probability Density Function (PDF)</td>
+      <td><a href="https://drive.google.com/file/d/1njyE627VmUVukgdvAj6y6lkv-JE5y5cr/view?usp=sharing">Video <span class="meta">(12:05)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1le79Lms7u6Mg7FKoQ9AbvdTCn0MowNBs/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">03</span></th>
+      <td>PDF Examples</td>
+      <td><a href="https://drive.google.com/file/d/18HjVPutleJQra2vC7At8eU9t2xg3x2sv/view?usp=sharing">Video <span class="meta">(14:15)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1ICOzMCv05v1EYio6FVAZIVuk5LhotfoI/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">04</span></th>
+      <td>CDF: Introduction and Example</td>
+      <td><a href="https://drive.google.com/file/d/1nFdHPAWh0ai8aY1qtcjTjzHRzPt6ErSE/view?usp=sharing">Video <span class="meta">(11:50)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1B36xR7yZNm_CB2MdK8m_F8UQKRrYkuE8/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">05</span></th>
+      <td>Obtaining PDF from CDF</td>
+      <td><a href="https://drive.google.com/file/d/1sYhG6fGCD53fHteiOTr9lMpwJo91qN3C/view?usp=sharing">Video <span class="meta">(03:13)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1xMvFATUr9_0utEEmEYaoQ2SqTuoRlx9b/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">06</span></th>
+      <td>Expected Value</td>
+      <td><a href="https://drive.google.com/file/d/1X_ZpFMN4sauWUoCPbyYhFcaKLkuYvVEd/view?usp=sharing">Video <span class="meta">(01:59)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1NqtGOixoDs-gGkebkqZWvNI8OuBPDVPy/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">07</span></th>
+      <td>Expected Value of Function of a Random Variable</td>
+      <td><a href="https://drive.google.com/file/d/1jj2_vrryqQZ9n2jdJpRmpq3eaUfFnksO/view?usp=sharing">Video <span class="meta">(02:50)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1Y1RrRvxtv7hLBWt1wCsZaI8z0kVoyTs9/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">08</span></th>
+      <td>Variance</td>
+      <td><a href="https://drive.google.com/file/d/137v3OG2q8AtCGM__K9HRZIpk1XAtkSG9/view?usp=sharing">Video <span class="meta">(06:01)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1GTBsVyBKrSk7B7DHkIV4SE5mUlnxu2eG/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">09</span></th>
+      <td>Uniform Distribution</td>
+      <td><a href="https://drive.google.com/file/d/18aoX0eAg3Ud2y94NM1qtHHD38suBO9gV/view?usp=sharing">Video <span class="meta">(16:58)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">10.A</span></th>
+      <td>Normal Distribution: Properties of the Normal Curve</td>
+      <td><a href="https://drive.google.com/file/d/1_OnhL0CQsrKI6xgvALx7z2tyXe1A4Te_/view?usp=sharing">Video <span class="meta">(13:35)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1Wm6RcapQDw8Kna-s82w4bEnedudzPcU8/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">10.B</span></th>
+      <td>Normal Distribution: Area under the Curve and CDF</td>
+      <td><a href="https://drive.google.com/file/d/1y6DFKMdSnhLPeJHUZKsBTlxzKTY3f3SE/view?usp=sharing">Video <span class="meta">(11:16)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1T1KDTeqQRNXwV_9CW_CDh_nj9mcp1QfA/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">10.C</span></th>
+      <td>Normal Distribution: Standard Normal Dist. &amp; Examples</td>
+      <td><a href="https://drive.google.com/file/d/1AIU125Pj1f3-SH0k28MM7lx42RMZln0Y/view?usp=sharing">Video <span class="meta">(16:16)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1xjlCiAOHqLHUsAk1oEFCt2L3X7lYSSY5/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">11.A</span></th>
+      <td>Exponential Distribution: Fundamentals</td>
+      <td><a href="https://drive.google.com/file/d/1V6rQ8m_6s_7vsi2Vs4qpzODWAmj3fY1S/view?usp=sharing">Video <span class="meta">(23:57)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1wLJ8IA7NLTFsk9NZhbPOoPKDWP3XhwFB/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">11.B</span></th>
+      <td>Exponential Distribution: Interesting Properties</td>
+      <td><a href="https://drive.google.com/file/d/15qetT16XyJqVsJP6olCqweko5cL9DQnK/view?usp=sharing">Video <span class="meta">(17:53)</span></a></td>
+      <td><span class="held" title="Withheld after the publication audit">Not publicly posted</span></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">B.1</span> <span class="badge">Optional</span></th>
+      <td>Expected Value and Variance of a Normal RV</td>
+      <td><span class="muted">No video listed</span></td>
+      <td><a href="https://drive.google.com/file/d/1PlJhZDqgK5-NLFnuy0PkNRRvO-Pn6_hn/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">B.2</span> <span class="badge">Optional</span></th>
+      <td>Expected Value and Variance of an Exponential RV</td>
+      <td><span class="muted">No video listed</span></td>
+      <td><a href="https://drive.google.com/file/d/1xbJGaXKjn2U2ZA1E5VO8nvy8btgNWWWD/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">B.3</span> <span class="badge">Optional</span></th>
+      <td>Gamma Function and its Properties</td>
+      <td><a href="https://www.youtube.com/watch?v=29wwymApOe8&amp;list=PL6DRxe0SXg8EsTzBOpyOirqMmEk8d4Yta&amp;index=15">Video <span class="meta">(10:04)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1DjI8L3posxQiZmhhA3QNqne327U_7z-q/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">B.4</span> <span class="badge">Optional</span></th>
+      <td>Gamma Distribution: Fundamental Concepts</td>
+      <td><a href="https://www.youtube.com/watch?v=7sdrNerUiv0&amp;list=PL6DRxe0SXg8EsTzBOpyOirqMmEk8d4Yta&amp;index=16">Video <span class="meta">(20:11)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1LbyxvJrmBk9fz9fqM7ki1JAh2h7kxAKO/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">B.5</span> <span class="badge">Optional</span></th>
+      <td>Gamma Distribution: Example</td>
+      <td><a href="https://www.youtube.com/watch?v=Y0UBgqo7EEk&amp;list=PL6DRxe0SXg8EsTzBOpyOirqMmEk8d4Yta&amp;index=17">Video <span class="meta">(15:39)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1e_of5KUoHJcggmsyHWRC9qXbaQrqFpSy/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr></tbody>
+      </table></div><p><strong>Review sheet:</strong> <span class="held" title="Withheld after the publication audit">Not publicly posted</span></p>
+      <details class="supplement"><summary>Supplemental resources</summary><ul><li><strong>Integration (Review):</strong> <a href="https://www.mathsisfun.com/calculus/integration-rules.html">mathsisfun.com 1</a> · <a href="https://www.youtube.com/watch?v=rCWOdfQ3cwQ&amp;list=PL0o_zxa4K1BVKErFko9je9IBZ0hXWXVtV&amp;index=39">youtube.com 2</a></li>
+<li><strong>PDF and CDF (Cumulative Distribution Functions):</strong> <a href="https://www.youtube.com/watch?v=ce3kUWkY9IY">youtube.com 1</a> · <a href="https://www.youtube.com/watch?v=WDGyFeuk9oI">youtube.com 2</a> · <a href="https://www.youtube.com/watch?v=3xAIWiTJCvE">youtube.com 3</a></li>
+<li><strong>Using the Normal Distribution z-table:</strong> <a href="https://www.youtube.com/watch?v=lgwT6tDniko">youtube.com</a></li>
+<li><strong>Intuition behind exponential distributions:</strong> <a href="https://www.youtube.com/watch?v=2kg1O0j1J9c">youtube.com</a></li>
+<li><strong>Relationship between Poisson and Exponential Distributions:</strong> <a href="https://stats.stackexchange.com/questions/2092/relationship-between-poisson-and-exponential-distribution">stats.stackexchange.com 1</a> · <a href="https://www.youtube.com/watch?v=n7K8s4vryCQ">youtube.com 2</a></li>
+<li><strong>Mean and Variance of continuous random variables:</strong> <a href="https://www.youtube.com/watch?v=Ro7dayHU5DQ">youtube.com</a></li></ul></details></div>
+    </details>
+<details class="material-group" id="chapter-5">
+      <summary>Chapter 5 — Joint Distributions <span>12 sections</span></summary>
+      <div class="details-body"><div class="table-scroll"><table class="materials-table">
+        <caption>Chapter 5 videos and slides</caption>
+        <thead><tr><th scope="col">Section</th><th scope="col">Topic</th><th scope="col">Video</th><th scope="col">Slides</th></tr></thead>
+        <tbody><tr>
+      <th scope="row"><span class="section-code">01</span></th>
+      <td>Motivation</td>
+      <td><a href="https://drive.google.com/file/d/1kzUUwlUw5fPB01WG97J3-Gp8UkBVmQGx/view?usp=share_link">Video <span class="meta">(01:34)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1oGlkFEDsuccY3N79nZfYQyDBck-V_z5T/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">02.A</span></th>
+      <td>Discrete Random Variables: Joint PMF</td>
+      <td><a href="https://drive.google.com/file/d/1JnTtgdEJV8O9lpfNgqitUNYeaU-Pev7V/view?usp=share_link">Video <span class="meta">(11:32)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1m9kYxDkwst1cFmDkmBCkV9rAcJt0klg-/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">02.B</span></th>
+      <td>Discrete Random Variables: Marginal PMF</td>
+      <td><a href="https://drive.google.com/file/d/1yq6-zXss8UTzQwBYWEmnG9Vv8nHVkNXR/view?usp=share_link">Video <span class="meta">(06:19)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1vJ7C6gW3MTLtB0wHRNdaWPtgcIh8mSt_/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">02.C</span></th>
+      <td>Discrete Random Variables: Conditioning &amp; Independence</td>
+      <td><a href="https://drive.google.com/file/d/1Ma982y86zOmLaixNMOfsf8KrDkDudOJk/view?usp=share_link">Video <span class="meta">(07:43)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1nTYOmHmLXJ1HQM0jLt8MM9pRmQQF6jEb/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">03.A</span></th>
+      <td>Continuous Random Variables: Joint PDF</td>
+      <td><a href="https://drive.google.com/file/d/1CrFAGF4dmJfwQ4XWVPB_Ddz10grD8uPf/view?usp=share_link">Video <span class="meta">(07:04)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1tqAEu8rREDGsWGbd3a6r2LspQltZook5/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">03.B</span></th>
+      <td>Continuous Random Variables: Marginal PDF</td>
+      <td><a href="https://drive.google.com/file/d/1PXZlLnumUrfO5ltUz39tONHEMZVdOTSp/view?usp=share_link">Video <span class="meta">(04:11)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1jUe6nDa_LoxdUMIJ761jgZtIN83T483_/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">03.C</span></th>
+      <td>Continuous Random Variables: Joint CDF</td>
+      <td><a href="https://drive.google.com/file/d/1OfK-jUPlUwzxaWWqiipJWexO3rQCXvEX/view?usp=share_link">Video <span class="meta">(14:17)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1yC6U2RIkBJOnRW0QyjkU_mwLX3jl3A40/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">04.A</span></th>
+      <td>Covariance: Introduction</td>
+      <td><a href="https://drive.google.com/file/d/1c34vx2BdDbw4RmNC8skzgTIv24ws3Seg/view?usp=share_link">Video <span class="meta">(04:04)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1tynz6kALSQ1VErM1ympv6YizEG73NQQ9/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">04.B</span></th>
+      <td>Covariance: Example with discrete random variables</td>
+      <td><a href="https://drive.google.com/file/d/1lC3Sf-y7aJwC_q1U7S_19UAPFXokmf1r/view?usp=share_link">Video <span class="meta">(10:38)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1qDnFDeMnWiqkW2muZ7NGvtQGoTEg8JOu/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">04.C</span></th>
+      <td>Covariance: Example with continuous random variables</td>
+      <td><a href="https://drive.google.com/file/d/1R8EwUPH-73O75UaCHPv-Q0RmNAnFsvtB/view?usp=share_link">Video <span class="meta">(10:22)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1Op_FDQeAxFVaXv6xedjHEVzwFU4h48z2/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">05</span></th>
+      <td>Correlation</td>
+      <td><a href="https://drive.google.com/file/d/1l2nodGx_ren3HVJ9MSaiiq_WhFRmrd6t/view?usp=share_link">Video <span class="meta">(12:41)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1QseXfKqHK1l7pP_ps7TLurN7PA_17aJV/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">06</span></th>
+      <td>Discussion</td>
+      <td><a href="https://drive.google.com/file/d/14UfLMUW2ChptDiIsTMXYbLKHH3NL-Mzr/view?usp=share_link">Video <span class="meta">(13:38)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1IVIAvZfMwKHGvP7BqxAj-2P7oNbizesu/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr></tbody>
+      </table></div><p><strong>Review sheet:</strong> <span class="held" title="Withheld after the publication audit">Not publicly posted</span></p>
+      <details class="supplement"><summary>Supplemental resources</summary><ul><li><strong>Double Integration (Review):</strong> <a href="https://www.youtube.com/watch?v=CNsOGNnBmS8">youtube.com</a></li>
+<li><strong>Correlation and Covariance:</strong> <a href="https://www.youtube.com/watch?v=fFzixWWKW2c">youtube.com 1</a> · <a href="https://www.youtube.com/watch?v=KDw3hC2YNFc">youtube.com 2</a></li></ul></details></div>
+    </details>
+<details class="material-group" id="chapter-7">
+      <summary>Chapter 7 — Limit Theorems <span>5 sections</span></summary>
+      <div class="details-body"><div class="table-scroll"><table class="materials-table">
+        <caption>Chapter 7 videos and slides</caption>
+        <thead><tr><th scope="col">Section</th><th scope="col">Topic</th><th scope="col">Video</th><th scope="col">Slides</th></tr></thead>
+        <tbody><tr>
+      <th scope="row"><span class="section-code">01</span></th>
+      <td>Independent and Identically Distributed (IID) Random Variables</td>
+      <td><a href="https://drive.google.com/file/d/1TfcN-yHPDHr2yYMw-7gRr6IaLGlODt44/view?usp=share_link">Video <span class="meta">(08:46)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/12anSh--TGcIrOHw1wXysvapydelOQPe7/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">02</span></th>
+      <td>Population vs. Sample</td>
+      <td><a href="https://drive.google.com/file/d/1AndYML28SSOz9XTGtO-QhoTeGOC47mMc/view?usp=share_link">Video <span class="meta">(04:37)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1_0R6HQ0erz7oOBjj1d4bb3SR8vZVg6u9/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">03</span></th>
+      <td>Sample Mean</td>
+      <td><a href="https://drive.google.com/file/d/1vCvK69-ZNw5JRZay3rJrpFzjR7YMQuoz/view?usp=share_link">Video <span class="meta">(12:19)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1vNOXSAdVwjW02EIga53uPqPWDbsOW0MB/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">04.A</span></th>
+      <td>Central Limit Theorem (CLT): Introduction</td>
+      <td><a href="https://drive.google.com/file/d/1WjRPCzycMu4hzULaoTfRZHraqPy1rz4L/view?usp=share_link">Video <span class="meta">(08:02)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1ytiS58Jy1GW55lBgISgZVjyhpJxrvvF1/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">04.B</span></th>
+      <td>CLT: Example</td>
+      <td><a href="https://drive.google.com/file/d/1g00bM2R6EyWvLI1yjrVMcFTixBExfihq/view?usp=share_link">Video <span class="meta">(17:14)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1KwFqkPrgU3Hcu64A00s3kAXZ6uwI6xQK/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr></tbody>
+      </table></div><p><strong>Review sheet:</strong> <span class="held" title="Withheld after the publication audit">Not publicly posted</span></p>
+      <details class="supplement"><summary>Supplemental resources</summary><ul><li><strong>I.I.D. Random Variables:</strong> <a href="https://www.youtube.com/watch?v=vfyiHe396UU">youtube.com</a></li>
+<li><strong>Central Limit Theorem (Short explanation):</strong> <a href="https://www.youtube.com/watch?v=Pujol1yC1_A">youtube.com 1</a> · <a href="https://www.youtube.com/watch?v=YAlJCEDH2uY">youtube.com 2</a> · <a href="https://www.youtube.com/watch?v=JNm3M9cqWyc">youtube.com 3</a></li>
+<li><strong>Central Limit Theorem (Long explanation):</strong> <a href="https://www.youtube.com/watch?v=4YLtvNeRIrg">youtube.com</a></li></ul></details></div>
+    </details>
+<details class="material-group" id="chapter-8">
+      <summary>Chapter 8 — Foundations of Statistics <span>4 sections</span></summary>
+      <div class="details-body"><div class="table-scroll"><table class="materials-table">
+        <caption>Chapter 8 videos and slides</caption>
+        <thead><tr><th scope="col">Section</th><th scope="col">Topic</th><th scope="col">Video</th><th scope="col">Slides</th></tr></thead>
+        <tbody><tr>
+      <th scope="row"><span class="section-code">01</span></th>
+      <td>Sample Statistics and Point Estimates</td>
+      <td><a href="https://drive.google.com/file/d/1bRgs7YfSYNF2Dq6rGePdxU75U_shF_Qd/view?usp=share_link">Video <span class="meta">(12:01)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1jPCYyJ9DYdKJ9CFDbrMt5-ZVx_n_ya75/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">02</span></th>
+      <td>Preparation for Confidence Intervals</td>
+      <td><a href="https://drive.google.com/file/d/1arbzLkGFP14wblljuuqmLYP1_yMrR0tC/view?usp=share_link">Video <span class="meta">(05:13)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1JW7xKfh2MW8Cz5mBI7013xeLleQrwwGo/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">03</span></th>
+      <td>Confidence Interval for μ: the case of known σ</td>
+      <td><a href="https://drive.google.com/file/d/1OIO3GG8RSQ3e1oK6YWElDRaxHjF2w1yv/view?usp=share_link">Video <span class="meta">(16:03)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1umMCapC9_K3fVrkmHioCF9eAZiDHGHb-/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr>
+<tr>
+      <th scope="row"><span class="section-code">04</span></th>
+      <td>Confidence Interval for μ: the case of unknown σ</td>
+      <td><a href="https://drive.google.com/file/d/1HAaoFSocqb7j9noqyocL9X2x70dGurKB/view?usp=share_link">Video <span class="meta">(23:14)</span></a></td>
+      <td><a href="https://drive.google.com/file/d/1rI5rdKYk6h2KEnVYX0ER3CiwklZC1hKg/view">Slides <span class="meta">(Google Drive)</span></a></td>
+    </tr></tbody>
+      </table></div><p><strong>Review sheet:</strong> <span class="held" title="Withheld after the publication audit">Not publicly posted</span></p>
+      <details class="supplement"><summary>Supplemental resources</summary><ul><li><strong>Sample mean vs. Population mean:</strong> <a href="https://www.youtube.com/watch?v=cmtBUWCC-6A">youtube.com</a></li>
+<li><strong>Calculating standard deviation:</strong> <a href="https://www.youtube.com/watch?v=IaTFpp-uzp0">youtube.com</a></li>
+<li><strong>Point estimate vs. Confidence interval:</strong> <a href="https://365datascience.com/point-estimates-confidence-intervals/">365datascience.com</a></li>
+<li><strong>Introduction to t-distribution:</strong> <a href="https://www.youtube.com/watch?v=T0xRanwAIiI">youtube.com</a></li>
+<li><strong>Finding confidence interval for μ when σ is known:</strong> <a href="https://www.youtube.com/watch?v=czdwHU27OqA">youtube.com 1</a> · <a href="https://www.youtube.com/watch?v=KG921rfbTDw">youtube.com 2</a> · <a href="https://www.youtube.com/watch?v=7UznG6G1xXY">youtube.com 3</a></li>
+<li><strong>Finding confidence interval for μ when σ is unknown:</strong> <a href="https://www.youtube.com/watch?v=UmAJJtEo6cQ">youtube.com 1</a> · <a href="https://www.youtube.com/watch?v=YbXEALO2OdM">youtube.com 2</a> · <a href="https://www.youtube.com/watch?v=vrod7OScpC4">youtube.com 3</a></li></ul></details></div>
+    </details></div>
+    </section>
+
+    <section class="section-band" id="syllabus" aria-labelledby="syllabus-title"><div class="wrap"><h2 id="syllabus-title">Syllabus</h2>
+      <div class="syllabus-grid">
+        <section class="panel"><h3>Topics</h3><ul><li>Basic probability, conditional probability, independence, total probability, and Bayes&#39; theorem</li>
+<li>Counting and combinatorial methods</li>
+<li>Discrete random variables, common distributions, expectation, and variance</li>
+<li>Continuous random variables, density and distribution functions, and common distributions</li>
+<li>Joint distributions, independence, covariance, and correlation</li>
+<li>The central limit theorem, point estimates, and confidence intervals</li></ul></section>
+        <section class="panel"><h3>Prerequisites</h3><p>Minimum grade of C− in (CIS 1068 or CIS 1073), CIS 1166, and an approved mathematics prerequisite listed in the Temple bulletin. Confirm eligibility in the official registration system.</p><p><a href="https://bulletin.temple.edu/undergraduate/courses/cis/">Temple CIS course bulletin</a></p></section>
+        <section class="panel"><h3>Required text</h3><p><a href="https://www.probabilitycourse.com/"><strong>Introduction to Probability, Statistics, and Random Processes</strong></a></p><p>Open educational resource; no cost to students</p><h4>Reference</h4><ul><li>Probability and Statistics for Engineers and Scientists — Walpole, Myers, and Ye</li>
+<li>Introduction to Probability — Bertsekas and Tsitsiklis</li></ul></section>
+        <section class="panel"><h3>Attendance</h3><p>Course material builds on earlier work, so active participation supports learning. If you miss class, you are responsible for completing the work and material you missed.</p></section>
+      </div>
+      <div class="grading-layout"><div><div class="table-scroll narrow"><table><caption>Assessment weights</caption>
+    <thead><tr><th scope="col">Component</th><th scope="col">Weight</th></tr></thead>
+    <tbody><tr><th scope="row">Homework</th><td>6%</td></tr>
+<tr><th scope="row">Quizzes</th><td>33%</td></tr>
+<tr><th scope="row">Class participation (synchronous)</th><td>10%</td></tr>
+<tr><th scope="row">Class participation (asynchronous)</th><td>1%</td></tr>
+<tr><th scope="row">Exam 1</th><td>25%</td></tr>
+<tr><th scope="row">Exam 2</th><td>25%</td></tr></tbody>
+  </table></div></div><div><h3>Letter-grade scale</h3><div class="grade-grid" aria-label="Letter grade scale"><div><strong>A</strong><span>92–100</span></div>
+<div><strong>A−</strong><span>90–&lt;92</span></div>
+<div><strong>B+</strong><span>88–&lt;90</span></div>
+<div><strong>B</strong><span>82–&lt;88</span></div>
+<div><strong>B−</strong><span>80–&lt;82</span></div>
+<div><strong>C+</strong><span>78–&lt;80</span></div>
+<div><strong>C</strong><span>72–&lt;78</span></div>
+<div><strong>C−</strong><span>70–&lt;72</span></div>
+<div><strong>D+</strong><span>68–&lt;70</span></div>
+<div><strong>D</strong><span>62–&lt;68</span></div>
+<div><strong>D−</strong><span>60–&lt;62</span></div>
+<div><strong>F</strong><span>&lt;60</span></div></div><p class="small">A cumulative score of at least 70 is required for C− or better when this course is used as a prerequisite.</p></div></div>
+      <div class="policy-copy"><h3>Assessment notes</h3><ul>
+    <li>Weekly homework establishes the expected problem-solving level; the two lowest homework grades are dropped.</li>
+    <li>Quizzes are approximately every other week; the lowest quiz grade is dropped.</li>
+    <li>Participation may include in-class exercises and Python or Google Colab programming exercises.</li>
+    <li>Exam 1 is listed for October 20 and Exam 2 for November 26. No additional final exam is listed.</li>
+  </ul>
+        <h3>Academic honesty</h3><p>Students must follow Temple University standards for academic honesty and student responsibility. Work determined to involve cheating receives a score of zero; the consequence applies whether work was copied from or by a student. Additional consequences may apply under university policy.</p>
+        <h3>Accessibility</h3><p>Students seeking accommodations should contact <a href="mailto:tujaccessibility@tuj.temple.edu">TUJ Accessibility Services</a>. If you have an accommodation letter, contact the instructor promptly so implementation can be discussed confidentially. See <a href="https://www.tuj.ac.jp/services/drs">Accessibility Services</a> for details.</p>
+        <h3>Academic freedom</h3><p>Freedom to teach and freedom to learn are inseparable facets of academic freedom. See Temple policy <a href="https://policies.temple.edu/PDF/99.pdf">03.70.02, Student and Faculty Academic Rights and Responsibilities</a>.</p>
+      </div><p class="action-row"><button class="button secondary" type="button" data-print-page>Print or save syllabus as PDF</button></p>
+    </div></section>
+
+    <section class="canvas-section" id="canvas" aria-labelledby="canvas-title"><div class="wrap canvas-row"><div><h2 id="canvas-title">Assignments and tests stay on Canvas</h2><p>Use Canvas for submissions, quizzes, tests, grades, announcements, Zoom, and any deadline changes.</p></div><a class="button light" href="https://templeu.instructure.com/courses/177665">Open CIS 2033 Canvas</a></div></section>
+  </main>
+  <footer><div class="wrap"><strong>CIS 2033 · Computational Probability and Statistics</strong><span>Temple University Japan · Fall 2026 · Updated August 29, 2026</span></div></footer>
+</body></html>
